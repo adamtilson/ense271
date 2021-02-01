@@ -205,7 +205,7 @@ Let's head over to [storiesonboard](https://app.storiesonboard.com/login). Tim s
 
 In order to quickly see the capabilities of the software, you should create a new board, and instead of starting from scratch, start from the Guide Map:
 
-![New Map](res/4-new-map.PNG "New Map")
+![New Map](res/4-new-map.png "New Map")
 
 ![New Example Map](res/5-new-example-map.png "New Example Map")
 
