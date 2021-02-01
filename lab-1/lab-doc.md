@@ -199,14 +199,6 @@ Drawing lines for iterative releases
 
 ---
 
-## Quick Example:
-
-Imagine that you just recieved a brand new phone. You would like to download and playing a mobile game. What are some user stories? Which are Activities? Steps? Tasks? Which are the most important?
-
-Another way of thinking about this, what does the user actually want to do (Activities), and what are they forced to do (Steps, Tasks) in order to accomplish this goal? 
-
----
-
 ## StoriesOnBoard
 
 Let's head over to [storiesonboard](https://app.storiesonboard.com/login). Tim should have set you up with accounts.
@@ -265,6 +257,14 @@ This is a good overview of the software. Before you leave the Guide Map and head
 ![Examples](res/12-examples.png "Examples")
 
 And if you want more help, check out the documentation here: [Read Some Docs!](http://docs.storiesonboard.com/en/)
+
+---
+
+## Quick Example:
+
+Imagine that you just recieved a brand new phone. You would like to download and playing a mobile game. What are some user stories? Which are Activities? Steps? Tasks? Which are the most important?
+
+Another way of thinking about this, what does the user actually want to do (Activities), and what are they forced to do (Steps, Tasks) in order to accomplish this goal? 
 
 ---
 
