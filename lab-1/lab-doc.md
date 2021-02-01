@@ -234,7 +234,7 @@ Let's zoom in on the upper left of center stage:
 
 We can also see an overview of our progress by clicking on the progress part of the release, e.g. `14 CARDS, 76 LEFT OF 91 HOURS`
 
-![Release Progress](res/9-release-progress.png "Release Progress")
+![Release Progress](res/9-release-progress.PNG "Release Progress")
 
 Simple card modifications such as renaming and adding can be accessed from the menu in the bottom right of a card
 
