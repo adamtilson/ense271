@@ -215,7 +215,7 @@ You should see a new board:
 
 It is somewhat intimidating. Let's take a look around, moving clockwise from top-right...
 
-![Guide Map Annotated](res/7-guide-map-annotated.PNG "Guide Map Annotated")
+![Guide Map Annotated](res/7-guide-map-annotated.png "Guide Map Annotated")
 1. Here we can navigate between this and other maps
 2. In this section we can add collaborators, zoom our map, filter which cards are displayed, and change what appears in the sidebar.
 3. This is the sidebar, in this area you can perform various task depending on what you have selected from section 2, such as view board conventions, edit personas, and discuss the board.
