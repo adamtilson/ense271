@@ -132,7 +132,7 @@ Some notes on advanced things we'll look at:
 
 ## Assignment
 
-Head to the website [Frontend Mentor](https://www.frontendmentor.io/), which includes a number of front end design challenges. Find a free challenge which looks interesting to you, (Recommended difficulty: Newbie to Junior) 
+Head to the website [Frontend Mentor](https://www.frontendmentor.io/challenges), which includes a number of front end design challenges. Find a free challenge which looks interesting to you, (Recommended difficulty: Newbie to Junior) 
 and attempt to create a medium fidelity prototype of it in Adobe XD.
 
 - You may optionally link your GitHub account to download images, but it's not strictly necessary, you could instead look for appropriate CC0 stock images and use them in place. Some designs use only primitives.
