@@ -15,8 +15,6 @@ In the previous lab we looked at using Adobe XD to make medium fidelity prototyp
 
 Download the starting files from URCourses, and open up `travel-hyrule-starting.xd`.
 
-We will see a bunch of 
-
 Things we will do:
 - Setting a home page and previewing
 - Connecting the hamburger menu to each of the pages
@@ -24,12 +22,12 @@ Things we will do:
 - Have a unique interaction on each of the strange 
     - A slow fade on the `shrines` page
     - A draggable gallery on the `divine beasts` page
-    - A carousel with buttons on the 
+    - A carousel with buttons on the `towers` page
 - Add some lightboxes to the `locations` page
 
 ## Prototyping, Home Page and Previewing
 
-Switch to prototyping mode using the top menu
+To add intereactivity to our design, we need to be in prototyping mode. Switch to prototyping mode using the top menu...
 
 ![Prototype mode](res/1-prototype.png)
 
@@ -47,7 +45,7 @@ This will open up your view. You can scroll around and click on things, but not 
 
 ## Wiring up the home menu
 
-Click on the hamburger menu. New gizmos will appear. Click on the arrow and drag it to the menu screen to the left.
+Click on your `hamburger menu` icon on the main. New gizmos will appear. Click on the arrow and drag it to the menu screen to the left.
 
 ![First Wire](res/5-our-first-wire.png)
 
@@ -77,15 +75,17 @@ Run your preview again, and confirm that all of the links are working correctly.
 
 This is all you need to do to link pages together in your prototype. In the next sections we will work on animations to bring the pages to life.
 
-We can also connect the `Weird Stuff` page to the three sub pages...
+While we're linking pages, notice that the `Weird Stuff` page should link to three sub pages...
 
 ![Weird stuff lints](res/10.1-weird-stuff.png)
 
-Using these animation settings:
+This time, use these animation settings:
 
 ![Transition Settings](res/10.3-transition-settings.png)
 
-Each of these pages has a back button, which we can wire back to the previous page. We should also choose an animation that mirrors the one which arrives at this page: 
+We don't typically see these kind of animations on the web, but they may be used in a mobile app.
+
+Each of these pages has a back button, which we can wire back to the weird stuff page. We should also choose an animation that mirrors the one which arrives at this page: 
 
 ![Back](res/10.2-back.png)
 
@@ -95,7 +95,7 @@ Test it out, does it go forward and backward as expected? You can try different 
 
 On the top of the home page, in the image bar, I have placed three images offset slightly to the left. We want to make an animation which automatically transitions through these three images at regular intervals.
 
-To create animations, we need to create a few keyframes. Switch to `design`, and drag the home page down into some open space so it easier to work with. Then make two copies of the home page, using ctrl+d. Delete and reposition the images in the top bar so that one and only one unique image exists in the same place in each of the three artboards:
+To create animations, we need to create a few keyframes. Our animations will be automatically animated between keyfrfames using interpolation, a process known as `inbetweening`, or just `tweening`. Each keyframe is a complete copy of an artboard, with only one or two small adjustments between keyframes. Switch to `design`, and drag the home page down into some open space so it easier to work with. Then make two copies of the home page, using ctrl+d. Delete and reposition the images in the top bar so that one and only one unique image exists in the same place in each of the three artboards:
 
 ![Keyframes](res/11-keyframes.png)
 
@@ -117,7 +117,7 @@ In this section we'll make a slow transition on the shrine page. Duplicate the s
 
 ![Shrine Fade](res/14-shrine-fade.png)
 
-Preview the page. This effect looks pretty neat. However, notice that scroll is disabled when an animation is playing. These types of animations should thus be sparingly, for example, on splash screen pages and pages without scroll.
+Preview the page. This effect looks pretty neat. However, notice that scroll is disabled when an animation is playing. These types of animations should thus be used sparingly, for example, on splash screen pages and single-page views without scroll.
 
 ## Draggable Gallery Page
 
@@ -125,15 +125,15 @@ On the Divine Beasts page we will simulate a draggable scrolling gallery effect.
 
 For this effect we will need six total keyframes, but we will make four to start.
 
-Duplicate the page, and move the image slider so that one of the four images is in the middle of the frame:
+Duplicate the page, and move the image slider so that one of the four images is in the middle of the frame, in order from left to right:
 
 ![First four keyframes](res/15-divine-beasts-first-four-keyframes.png)
 
-To make this effect even more interesting, we will zoom in on the selected beast in each frame. Switch to design, double click on the image to get into the group, then double click again to get the original masked image. Scale it up a bit so that it is in more frame. Do this for each of the four beasts in their appropriate artboard.
+To make this effect even more interesting, we will zoom in on the selected beast in each frame. Switch to design, double click on the image to get into the group, then double click again to get the original masked image. Scale it up a bit so that the creature is more pronounced in frame. Do this for each of the four beasts in their appropriate artboard.
 
 ![Divine Beasts Zoomed](res/16-divine-beasts-zoomed.png)
 
-We need two more keyframes to make this worked. Duplicated the third artboard as the fifth, and the second artboard as the sixth.
+We need two more keyframes to complete this animation. Duplicated the third artboard as the fifth, and the second artboard as the sixth.
 
 ![Divine Beasts Zoomed](res/17-all-keyframes.png)
 
@@ -141,11 +141,11 @@ Now we'll add our animations. Remember to add one animation first, adjust the se
 
 ![Drag](res/18-drag.png)
 
-It may be tricky to find the connector on the banner, look to the right side of it, which will be different in each of the images.
+It may be tricky to find the connector on the banner, look to the right side of it, which will be different in each of the images, due to the positioning.
 
-Once you have the settings right, connect the other images to their keyframe to the right, and connect the last image back to the first page.
+Once you have the animation settings correct, connect each images to their keyframe to theie right, and connect the final image back to the first artboard.
 
-Test the page. Drag through your images all the way to the right, and then all the way back to the left. The limitation to this animation is that you can only drag in this specific order, but it's still a need animation.
+Test the page. Drag through your images all the way to the right, and then all the way back to the left. The limitation to this animation is that you can only drag in this specific order, but it's still a neat animation.
 
 ## Five image carousel with arrows and progress buttons
 
@@ -155,7 +155,7 @@ As always, drag it down somewhere you can work, and duplicate it into five keyfr
 
 ![Slides](res/19-slides.png)
 
-This one is easy. You just need to wire up the triangles to the next or previous slide (and don't forget to wrap around from the last to the first, and vice versa.) Don't forget to set the animation style after drawing the first wire! Also wire up the circles to the corresponding image. These settings work well:
+Wiring this pattern is very logical. You simply need to wire up the triangles to the next or previous artboard (and don't forget to wrap around from the last to the first, and vice versa.) Don't forget to set the animation style after drawing the first wire! Also wire up the circles to the corresponding image. These settings work well:
 
 ![Wiring](res/20-wiring.png)
 
@@ -165,15 +165,15 @@ Each page should have six exists (two arrows and four circles) to make the galle
 
 Test it out. The arrows are easy test, the bubbles slightly less so, as you would need to test all four exists from each page! I test first page to the remaining four and back, second page to the remaining three and back, third page to the remaining two and back, etc.
 
-## Lightboxes for the location page.
+## Lightboxes for the location page
 
-The last thing we are going to do is add some Lightboxes to the location page. This will allow the user to click on the text at various points in the page, and have a pop-up appear with more information.
+The last thing we are going to do is add some Lightboxes to the location page. Lightboxes dim the screen and slow some content highlighted in a popup. We will allow the user to click on the text at various points in the page, and have a pop-up appear with more information.
 
-Move the location page near the four lightboxes...
+Move the location page near the four lightboxes, and wire the links together with the following settings...
 
 ![light boxes](res/22-lightboxes.png)
 
-Test it out. You may click anywhere on the lightbox to close it, but a close icon was included in the image in case that isn't obvious. Additionally, the dimming effect is caused by a slightly transparent placed under the info box in the lightbox.
+Test it out. You may click anywhere on the lightbox to close it, but a close icon was included in the image in case that isn't obvious. The dimming effect is caused by a slightly transparent dark filled rectangle placed under the info box in the lightbox.
 
 And that's it. The full website is accessible, with several interesting effects. Test it out to see if anything is broken. Are all the hamburger icons leading to the menu page? You can verify by clicking on the menu and tracing all of the dashed lines.
 
