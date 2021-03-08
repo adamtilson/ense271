@@ -17,6 +17,9 @@ Typically Wordpress is installed on a remote server running a LAMP stack: Linux,
 
 For this course we will use an application called "Local" by Flywheel to install a local wordpress development site, which can be used for single-user prototyping and testing on your local machine without a server. Historically, one would use a streamlined LAMP installation, such as XAMPP, which has some advantages and disadvantages over our approach. Flywheel is a web-hosting service, and has released this tool to help people learn, hoping you will later host your site with them, but there is no obligation to do so. Local encapsulates the server and database applications needed by Wordpress, allowing you to quickly start the needed services on demand. 
 
+![wordpress-stack](res/wordpress-stack.png)
+![local-stack](res/local-stack.png)
+
 ## 2.0 Installing "Local by Flywheel"
 
 [Download Local by Flywheel](https://localwp.com/)
