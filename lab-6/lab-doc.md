@@ -341,7 +341,7 @@ We didn't fix the non-transparent header which shows up on the blog posts - I'll
 
 ### 6.0 Assignment
 
-Your assignment is to get into the head of a perspective user by creating a 2-page blog site for a fictional persona, similar in scope to the pre-lab. Create a persona (no need to fill in all the details - major details only), or use one you have previously created, and include a site and blog snippets in keeping with their style.
+Your assignment is to get into the head of a prospective user by creating a 2-page blog site for a fictional persona, similar in scope to the pre-lab. Create a persona (no need to fill in all the details - major details only), or use one you have previously created, and include a site and blog snippets in keeping with their style.
 
 Your site should include
 - A consistent header across pages
