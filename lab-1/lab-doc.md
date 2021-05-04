@@ -11,15 +11,17 @@
 
 ## What is User Story Mapping?
 
-A UX exercise credited to Jeff Patton originally documented in his article "It’s All in How You Slice It (2005)" and later a book published by O’Reilly. It has grown iteratively over time.
-
-It is an exercise which produces a card-based planning model.
+- A UX exercise credited to Jeff Patton originally documented in his article "It’s All in How You Slice It (2005)" and later a book published by O’Reilly. 
+- Has grown iteratively over time by various developers.
+- An exercise which produces a card-based planning model.
 
 ## Guiding Principle
 
-Challenge the old Software Engineering adage: "If you build the highest value feature first, users will love your release”. It this is not true if it is lacking required low-value (secondary) features. 
-
-e.g. If you are designing a photoshop clone, a high demand feature might be cool new AI tech for context aware fills. But if you are missing the basics (crop, resize, etc.) then your tool will not get much long term use.
+- Challenge the old Software Engineering adage: "If you build the highest value feature first, users will love your release”. 
+  - This adage is false when lacking required low-value (secondary) features. 
+  - e.g. If you are designing a photoshop clone, a high demand feature might be cool new AI tech for context aware fills. 
+    - But if you are missing the basics (crop, resize, etc.) then your tool will not get much long term use.
+- We hope to use this tool to discover a set of core features, primary and secondary, which should be prioritized in a Minimum Viable Product (MVP) to make a product people will actually want to use!
 
 ## Who should participate in User Story Mapping:
 
@@ -27,9 +29,9 @@ e.g. If you are designing a photoshop clone, a high demand feature might be cool
 - A team of four to eight stakeholders from different roles
 - Domain experts, testers, UI designers, business people
 
-## Eight Steps
+## Original Method in Eight Steps
 
-In the original article, eight steps were presented in the activity of user-story mapping. These need not be followed rigidly, but still explain the general idea.
+Originally, eight steps were given to describe user-story mapping. These need not be followed rigidly, but provide a nice narrative to the process.
 
 1. Collect Features
 2. Add Details
@@ -40,13 +42,12 @@ In the original article, eight steps were presented in the activity of user-stor
 7. Fill in Build Estimates
 8. Slice and Serve
 
-In Detail:
+In detail:
 
 1. Collect Features
 
-   - Answer the question “What does our software do?”, expressed from a user perspective.
-
-    - Write these on business cards or index cards
+   - Answer “What does our software do?”, from a user perspective.
+   - Write these on business cards or index cards
 
 2. Add Details
 
@@ -55,6 +56,8 @@ In Detail:
     - How valuable is the feature? (high, medium, low)
 
 Original Proposed Example Card:
+
+<center>
 
 ---
 
@@ -68,18 +71,21 @@ value: medium
 
 ---
 
-- With all these cards this might feel like Monopoly. 
+</center>
 
-- Note that this style has later been standardized by M. Cohn to the User Story approach:
+   - With all these cards this might feel like Monopoly. 
 
-    - As a _type of user_ I want _some goal_ so that _some reason_.
+   - Note that this style has later been standardized by M. Cohn to the User Story approach:
 
+     - As a _type of user_ I want _some goal_ so that _some reason_.
+
+   - This method is preferred in this course where appropriate.
 
 3. Place Cards in Sequential Order
 
 - On a poster board:
     - label the X-axis “Usage Sequence”
-        - We will follow the western convention that left happens earlier, right happens later, though this can be modified for working in other cultures with different conventions.
+        - We use the western convention that left happens earlier, right happens later, though this can be modified for working in other cultures with different conventions.
     - label the Y-axis “Criticality” 
         - Features at the top are always used, features at the bottom are rarely used
 ```
@@ -98,7 +104,8 @@ Criticality |
     - e.g. collect ingredients before starting cooking
 
 - If events happen simultaneously, arrange them logically. 
-    - e.g. I was to ask you "List for me everything your system does", what order would you list the features? That should be the order you place them.
+    - e.g. If I asked you: "List everything your system does", what order would you list the features? 
+      - That should be the order you place them.
 
 - As a group, place the cards in just one row across the top. 
 
@@ -137,9 +144,9 @@ Criticality |
 
 8. Slice and Serve
 
-    - Have the business people decide which features need to be in each release, by drawing additional jagged lines across the remainder of the poster.
+    - Have the business people decide which features need to be in each successive release, by drawing additional horizontal jagged lines across the remainder of the poster.
 
-## What we're left with...
+## Result
 
 - We’ve found dependencies. We’ve found criticality. 
 - We know the features set to get your system up and running.
@@ -147,10 +154,11 @@ Criticality |
 
 ## Limitations
 
-- Good concepts are rarely static, and this one naturally evolved by the original author and other contributors.
+- Useful processes rarely remain static. This one naturally evolved with contributions frin the original author and other contributors.
 
-The biggest problem at this state is "Granularity". 
-- We need to extract the big picture to contextualize the tasks.
+- The biggest limitation is "Granularity".
+    - All of the current tasks are framed as small tasks.
+    - We need to extract the big picture to contextualize the tasks.
 
 ## Advances
 
@@ -168,22 +176,20 @@ In the aim of addressing the granularity problem, the following adjustments were
         - It can be useful to do this process with the client. This is what you want to build first.
     - Some groups use a different card color for this row.
 
-- Everything underneath are `Tasks`, or `Details` in decreasing importance. 
+- Everything underneath are `Tasks`, or `Details` in decreasing frequency of use. 
     - These are our skeletal `ribs.`
 
-* It is important to note that there may be some differences in terminology between how other people use this technology.
-
-## In Practice...
+* Some sources use minor differences in terminology for different levels of granuarity
 
 In the real world, Software developers rarely stick to rigidly defined rules, and modify these techniques as needed. 
 - Some people want more levels of granularity, some want fewer. 
 - You may see two colours of cards used, one for the backbone and one for tasks, or three colours, for the backbone, walking skeleton and tasks.
 
-I've also seen this tool mixed with Kanban as follows (Holub): include "piles" of tasks on the sides: on the left are ideas that you are still working on / not sure how it fits into the big picture yet, but you don't want to lose, and a pile on the right for features which are complete to give a motivating sense of progression.
-
 Finally, software has made this process completely virtual, which we will demonstrate using Stories on Board.
 
-## In Images...
+## Modern Visual Example:
+
+Here's a more complete example using 2 colors...
 
 Laying out cards and arranging into lanes
 
@@ -225,8 +231,8 @@ Let's zoom in on the upper left of center stage:
 
 ![Center Stage Zoom](res/8-center-stage-zoom.png "Center Stage Zoom")
 
-1. As the vertical "swim lanes" tend to correspond to different people or roles, it may make sense to assign personas to these tasks.
-2. Time estimates for our larger stories are derived from the sum of the time estimates of the smaller tasks.
+1. As the vertical lanes tend to correspond to different people or roles, it may make sense to assign personas to these tasks.
+2. Time estimates for our larger stories are derived from the sum of the time estimates of the smaller tasks below them.
 3. We can create releases and assign cards into each. Some feedback is given for the release, including how many cards and hours remain, and how many cards are not yet estimated.
 4. We can set the status of a given card, from the options of `TODO`, `READY`, `DOING` and `DONE`.
 5. We can set a time estimate for each task, which is used for computing the total time for a given lane, as well as the time remaining for a given release.
@@ -260,11 +266,11 @@ And if you want more help, check out the documentation here: [Read Some Docs!](h
 
 ---
 
-## Quick Example:
+## Worked Example:
 
-Imagine that you just recieved a brand new phone. You would like to download and start playing a mobile game. What are some user stories? Which are Activities? Steps? Tasks? Which are the most important?
+Imagine you are tasked with building an application for a food delivery service. Use User Story Mapping to plan building such an app.
 
-Another way of thinking about this, what does the user actually want to do (Activities), and what are they forced to do (Steps, Tasks) in order to accomplish this goal? 
+In accomplishing this, thinki in terms of: Who are the users? What are the user's goals(Activities), and what smaller operations must they do (Steps, Tasks) in order to accomplish this goal? 
 
 ---
 
@@ -272,7 +278,7 @@ Another way of thinking about this, what does the user actually want to do (Acti
 
 Planning your semester:
 
-Using stories on board, create a new board which represents part of your study schedule for the current semester. Using User Story Mapping principles, try to plan out some of the tasks you need to do, such as attending lectures or completing labs. Note that User Story Maps are not exactly designed for this type of planning, so it may not work perfectly for all the tasks, which is fine. It also does not need not be totally realistic or accurate, if you wish you can make stuff up, the purpose is simply to get some experience using the software. In accomplishing this, include:
+Using StoriesOnBoard, create a new board which represents part of your study schedule for the current semester. Using User Story Mapping principles, try to plan out some of the tasks you need to do, such as attending lectures or completing labs. Note that User Story Maps are not exactly designed for this type of planning, so it may not work perfectly for all the tasks, which is fine. It also does not need not be totally realistic or accurate, if you wish you can make stuff up, the purpose is simply to get some experience using the software. In accomplishing this, include:
 
 - At least three epics in the backbone
 - At least six steps in the walking skeleton
