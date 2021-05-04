@@ -270,7 +270,7 @@ And if you want more help, check out the documentation here: [Read Some Docs!](h
 
 Imagine you are tasked with building an application for a food delivery service. Use User Story Mapping to plan building such an app.
 
-In accomplishing this, thinki in terms of: Who are the users? What are the user's goals(Activities), and what smaller operations must they do (Steps, Tasks) in order to accomplish this goal? 
+In accomplishing this, think in terms of: Who are the users? What are the user's goals(Activities), and what smaller operations must they do (Steps, Tasks) in order to accomplish this goal? 
 
 ---
 
