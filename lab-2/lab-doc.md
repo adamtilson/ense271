@@ -103,6 +103,8 @@ You can grab adobe XD from here: [Adobe XD](https://www.adobe.com/ca/products/xd
 
 ![Download XD][Download XD]
 
+![Download XD 2][Download XD 2]
+
 You have to make an account, install Creative Cloud, and download your product from there.
 
 Optional - Turn off telemetry by going to the website and the settings:
@@ -124,7 +126,7 @@ Quickly sketch up a sitemap:
     - Drag the text to where you want it
     - Guides appear as you drag things around to help you center and match existing spaces
 - Once you like the way this looks, copy and paste rectangles and text together as needed
-    - ctrl+d is a shortcut for duplicating what is selected
+    - `ctrl+d` is a shortcut for duplicating what is selected
     - Then start dragging to move it around
 - Connect pages with lines to represent links
     - click on the line tool at (5)
@@ -153,7 +155,7 @@ Be sure to click around. Look for pages which are not listed in the main navigat
         - lowercase
         - seperate words with dashes
         - brief but descriptive names
-        - eg. coffee-with-cream.png
+        - eg. `coffee-with-cream.png`
 
 These analysis methods are more suited to static websites. If you find `dynamic content`, like forums, blog posts or galleries, these do not need to be exhaustively documented in the asset inventory, instead, simply document all of the content for one entry, eg. one blog post, one forum post, etc., and include a `database` asset.
 
@@ -186,6 +188,7 @@ P. Klancar, [An Excellent Beginner's Guide To Information Architecture](https://
 E. Key, [Prototyping a WordPress Project in Adobe XD](https://www.lynda.com/Web-tutorials/Prototyping-WordPress-Project-Adobe-XD/2809592-2.html), Linda from LinkedIn, 2019
 
 [Download XD]: res/xd-install.png "Download XD"
+[Download XD 2]: res/xd-install-2.png "Download XD 2"
 [Disable Telemetry]: res/xd-no-telemetry.png "Disable Telemetry"
 [Example Sitemap]: res/sitemap.png "Example Sitemap"
 [XD UI Overview]: res/xd-ui-sitemap.png "XD UI Overview"
