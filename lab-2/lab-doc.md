@@ -45,6 +45,8 @@ Try to answer:
     - What clear path can they take to get to their goal? 
         - More important than the "3-click-rule"
 
+From the answers, you can decide between a flat / wide sitemap, or a deep one.
+
 Card Sorting
 - A great activity to figure out how content is logically sorted is Card Sorting
   - Write page or content titles on cards
