@@ -61,7 +61,7 @@ Example Sitemap:
 
 Note on Hierarchies:
 
-The following diagram shows several ways you can draw out wide hierarchies, but just one way to communicate a deep hierarchy. Students occasionally confuse a vertical display of a wide hierarchy for a deep hierarchy, and I agree, it's confusing, but you do see it this way every once in a while...
+The following diagram shows several ways you can draw out wide hierarchies, but just one way to communicate a deep hierarchy. Students occasionally confuse a vertical display of a wide hierarchy for a deep hierarchy, and while it can be confusing, it's important to understand the difference to interpret others' maps.
 
 ![Hierarchy][Hierarchy]
 
@@ -81,7 +81,7 @@ The following diagram shows several ways you can draw out wide hierarchies, but 
     - other asset types may include `videos`, `icons`, `ui elements` (`buttons`), `audio`, `fonts`, `palettes` and `databases`.
     - It is increasingly popular to use assets hosted by third party services, such as icons and fonts, with trade-offs to this approach
 
-- During design the asset inventory should be done before or in parallel the sitemap. This way, you are ensuring that your site structure matches your content, and not the other way around. This is called `content first` design.
+- During design the asset inventory should be created before or in parallel the sitemap. This way, you are ensuring that your site structure matches your content, and not the other way around. This is called `content first` design.
 
 - It is important to track these assets so that, at a glance, one can easily see which assets are found, and which ones are still needed. Highlighting is great for this. It can also be useful to see when assets were last updated, to quickly catch ones that might need an update. 
 
