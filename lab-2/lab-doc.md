@@ -193,6 +193,8 @@ P. Klancar, [An Excellent Beginner's Guide To Information Architecture](https://
 
 E. Key, [Prototyping a WordPress Project in Adobe XD](https://www.lynda.com/Web-tutorials/Prototyping-WordPress-Project-Adobe-XD/2809592-2.html), Linda from LinkedIn, 2019
 
+J. Jhang [How to create a UX Sitemap: a simple guideline](https://uxdesign.cc/how-to-create-a-ux-sitemap-a-simple-guideline-8786c16f85c1)
+
 [Download XD]: res/xd-install.png "Download XD"
 [Download XD 2]: res/xd-install-2.png "Download XD 2"
 [Disable Telemetry]: res/xd-no-telemetry.png "Disable Telemetry"
