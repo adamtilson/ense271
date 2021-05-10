@@ -57,6 +57,12 @@ Example Sitemap:
 
 ![Example Sitemap][Example Sitemap]
 
+Note on Hierarchies:
+
+The following diagram shows several ways you can draw out wide hierarchies, but just one way to communicate a deep hierarchy. Students occasionally confuse a vertical display of a wide hierarchy for a deep hierarchy, and I agree, it's confusing, but you do see it this way every once in a while...
+
+![Hierarchy][Hierarchy]
+
 `XML Sitemap` - Once your website is complete, you should include your sitemap formatted in an XML file. This is for robots, such as search engine webcrawlers, and may help them quickly index your webstie based on how the pages link together.
 
 ---
@@ -191,6 +197,7 @@ E. Key, [Prototyping a WordPress Project in Adobe XD](https://www.lynda.com/Web-
 [Download XD 2]: res/xd-install-2.png "Download XD 2"
 [Disable Telemetry]: res/xd-no-telemetry.png "Disable Telemetry"
 [Example Sitemap]: res/sitemap.png "Example Sitemap"
+[Hierarchy]: res/hierarchy.png "Wide vs. Deep Hierarchy"
 [XD UI Overview]: res/xd-ui-sitemap.png "XD UI Overview"
 [Asset Inventory Pages]: res/asset-inventory-pages.png "Asset Inventory Pages"
 [Asset Inventory Assets]: res/asset-inventory-assets.png "Asset Inventory Assets"
