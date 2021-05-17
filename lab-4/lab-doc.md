@@ -11,11 +11,11 @@
 
 ## Introduction
 
-In the previous lab we looked at using Adobe XD to make medium fidelity prototypes. However, these were only static sites with no interactivity. We will now look at using the Adobe XD Prototyping workflow to add some interactivity to our websites.
+In the previous lab we looked at using Adobe XD to make medium fidelity prototypes. However, these were only static sites with no interactivity. We will now look at using the Adobe XD Prototyping workflow to add some interactivity to our website mockups, which we can demonstrate using the `preview` function.
 
-Download the starting files from URCourses, and open up `travel-hyrule-starting.xd`.
+Download the starting files from URCourses, and open up `travel-hyrule-starting.xd`, a mobile tourism site for a fictional land.
 
-Things we will do:
+We will work together through:
 - Setting a home page and previewing
 - Connecting the hamburger menu to each of the pages
 - Add an automatic carousel to the first page
@@ -57,7 +57,7 @@ In the inspector, set the animation type to tap, overlay and slide down
 
 ![Animation Settings](res/6-animation-settings.png)
 
-Once an animation is set, if you wire up another link, it will copy the same settings. Use this to link up the hamburger menus on the other pages...
+Once an animation is set, if you wire up another link, it will copy the same animation settings. Use this to link up the hamburger menus on the other pages...
 
 ![Wired to hamburger](res/8-wired-to-hamburger.png)
 
@@ -73,7 +73,7 @@ Getting pretty crazy.
 
 Run your preview again, and confirm that all of the links are working correctly.
 
-This is all you need to do to link pages together in your prototype. In the next sections we will work on animations to bring the pages to life.
+This is the complete workflow to link pages together. In the next sections we will work on animations to bring the pages to life.
 
 While we're linking pages, notice that the `Weird Stuff` page should link to three sub pages...
 
@@ -95,7 +95,7 @@ Test it out, does it go forward and backward as expected? You can try different 
 
 On the top of the home page, in the image bar, I have placed three images offset slightly to the left. We want to make an animation which automatically transitions through these three images at regular intervals.
 
-To create animations, we need to create a few keyframes. Our animations will be automatically animated between keyfrfames using interpolation, a process known as `inbetweening`, or just `tweening`. Each keyframe is a complete copy of an artboard, with only one or two small adjustments between keyframes. Switch to `design`, and drag the home page down into some open space so it easier to work with. Then make two copies of the home page, using ctrl+d. Delete and reposition the images in the top bar so that one and only one unique image exists in the same place in each of the three artboards:
+To create animations, we need to create a few keyframes. Our animations will be automatically animated between keyframes using interpolation, in a process known as `inbetweening`, or simply `tweening`. Each keyframe is a complete copy of an artboard, with only one or two small adjustments between keyframes. While still in `Prototype`, drag the home page down into some open space so it easier to work with. Next make two copies of the home page, using ctrl+d. If you make these copies in `Prototype`, existing links will be copied too, which will save us some time. Delete and reposition the images in the top bar so that one and only one unique image exists in the same place in each of the three artboards:
 
 ![Keyframes](res/11-keyframes.png)
 
@@ -109,17 +109,17 @@ Wire up the second to the third screen, and the third screen back to the first.
 
 Preview the page. The image should swap automatically every few seconds.
 
-Note that the hamburger menu may have disconnected on the duplicated pages. If so, wire them back to the menu page.
-
 ## Auto-fade Animation on Shrine page
 
 In this section we'll make a slow transition on the shrine page. Duplicate the shrine page, and center one of the two shrine images in each page. Finally, add effects back and forth with the following settings.
 
 ![Shrine Fade](res/14-shrine-fade.png)
 
-Preview the page. This effect looks pretty neat. However, notice that scroll is disabled when an animation is playing. These types of animations should thus be used sparingly, for example, on splash screen pages and single-page views without scroll.
+Preview the page. This effect looks pretty neat. However, notice that page scrolling is disabled when an animation is playing. When one animation is playing, others are blocked, and in XD, scrolling counts as an animation. For this reason, these types of animations should be used sparingly, for example, on splash screen pages and single-page views without scroll.
 
-## Draggable Gallery Page
+## Draggable Gallery Page - The Old Way
+
+Since Jan 2021, This method is deprecated. However, you will see that it provides some extra functionality compared to the new way.
 
 On the Divine Beasts page we will simulate a draggable scrolling gallery effect.
 
@@ -145,13 +145,27 @@ It may be tricky to find the connector on the banner, look to the right side of 
 
 Once you have the animation settings correct, connect each images to their keyframe to theie right, and connect the final image back to the first artboard.
 
-Test the page. Drag through your images all the way to the right, and then all the way back to the left. The limitation to this animation is that you can only drag in this specific order, but it's still a neat animation.
+Test the page. Drag through your images all the way to the right, and then all the way back to the left. The limitation to this animation is that you can only drag in this specific order, but it still creates a neat animation with the subtle zooming effect.
+
+## Draggable Gallery - The new Way
+
+Since scrolling areas is a high demand feature, it was made into a native feature.
+
+Switch back to design mode, and then click on the gallery. In the right pane, click on the horizontal scroll group
+
+![Drag-New-1](res/drag-new-1.png)
+
+Next, move the blue bar to be flush with the right side of the image
+
+![Drag-New-2](res/drag-new-2.png)
+
+Now preview this screen. You should be able to scroll. Cool. We gain the ability to smoothly scroll in any direction. However, we have lost the ability to do the zooming animation. You will need to choose the method that is more appropriate for your given task.
 
 ## Five image carousel with arrows and progress buttons
 
 The final "Weird Stuff" page will have a five image carousel.
 
-As always, drag it down somewhere you can work, and duplicate it into five keyframes. Have a different of the five images in each keyframe. Also, change the fill on the little circles so that they match up with their keyframe.
+As always, drag it down somewhere you can work, and duplicate it into five keyframes. Have a different image from the set of five images in each keyframe. Also, change the fill on the little circles so that they match up with their keyframe.
 
 ![Slides](res/19-slides.png)
 
@@ -167,7 +181,7 @@ Test it out. The arrows are easy test, the bubbles slightly less so, as you woul
 
 ## Lightboxes for the location page
 
-The last thing we are going to do is add some Lightboxes to the location page. Lightboxes dim the screen and slow some content highlighted in a popup. We will allow the user to click on the text at various points in the page, and have a pop-up appear with more information.
+The last thing we are going to do is add some Lightboxes to the location page. Lightboxes dim the screen and show some content highlighted in a popup. We will allow the user to click on the text at various points in the page, and have a pop-up appear with more information.
 
 Move the location page near the four lightboxes, and wire the links together with the following settings...
 
@@ -181,11 +195,11 @@ And that's it. The full website is accessible, with several interesting effects.
 
 ## Assignment
 
-Due to the pandemic, many public places are closed to the public, such as museums, art galleries, aquariums and zoos. Due to this, many have attempted to do `virtual museums`. Your assignment is to pick such a place and create a virtual tour in Adobe XD. Your tour should include:
+Due to the pandemic, many public places are closed to the public, such as museums, art galleries, aquariums and zoos. Due to this, many have attempted to do `virtual museums`. Your assignment is to choose a real-world location and create a virtual tour in Adobe XD. Your tour should include:
 - A home page
 - Some type of menu
 - Three exhibits, with a page for each
-    - Each exhibit should have a name, a set of images and text
+    - Each exhibit should have a name, a set of images and text description
     - The images should be stored in some type of interactive container
         - You can use ones from the prelab, or create your own
     - Use a different type of interaction for each page
